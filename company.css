@@ -1,0 +1,13 @@
+.table-content, .rank, h2,p{
+    border: 0.5px solid black;
+}
+/* #box{
+    animation: 1s;
+    animation-timing-function: ease-in;
+
+    animation-name: pop;
+} */
+.nav{
+display: flex;
+justify-content: space-between;
+}

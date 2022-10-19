@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.head {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./nut.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head h1 {
+  display: block;
+  font-weight:bold;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition-delay: 0.5s;
+}
+.head h1:hover{
+  color:rgb(61, 38, 38);
+}
+.head h2 {
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36, 8, 8);
+  /* transform: rotate(20deg); */
+}
+
+.navbar ul {
+  line-height: 80px;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 0px 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+}
+.choco {
+  text-align: center;
+}
+.eat{
+    font-style: normal;
+}
+/* .column-first{
+    float: left;
+    padding: 10px;
+    width: 25%;
+} */
+.card-text{
+  font-weight: bolder;
+}
+p {
+  text-align: justify;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+}
+.column.second {
+  width: 50%;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(107, 69, 69);
+    color: white;
+  }
+  .choco-pie{
+    height: 300px;
+    width: 300px;
+  }
+
+.choco-img {
+  height: 50%;
+  width: 194px;
+}
+.img-design {
+  justify-content: center;
+}
+.mid-section {
+    margin-top: 50px;
+
+}
+.foot-img{
+width: 100%;
+height:550px;
+
+}
+footer{
+    background-color:rgb(36, 8, 8);
+    color: white;
+}
+.overall{
+  display: flex;
+}
+.banepa{
+  margin-bottom: 0;
+}
+.banepas{
+  margin-top: 5px;
+}
+.company-para{
+  margin-right: 50px;
+}
+.design{
+  margin: 20px;
+}
+.social{
+  border-radius: 50%;
+}
+body{
+    overflow-x: hidden ;
+}
+.foot-logo{
+display:flex;
+justify-content: center;
+margin-left: 50%;
+}
+.price-section{
+  margin: 2rem;
+}
+.desc-section{
+  margin: 2rem;
+}
+/* p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+.animation-nav {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
